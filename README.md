@@ -1,4 +1,8 @@
 # Numpy homework
+
+## Create a NumPy array with elements from N to 0.
+
+N is not included in the array. For N = 10, the result will be array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]))
 ```python
 import numpy as np
 
@@ -11,6 +15,10 @@ Result:
 
 [29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10  9  8  7  6
   5  4  3  2  1  0]
+
+## Create a diagonal matrix with elements from N to 0 (N is included in the array).
+
+Calculate the sum of its diagonal values.
   ```python
 import numpy as np
  
@@ -47,6 +55,9 @@ Result:
  [0 0 0 0 0 0 0 0 0]]
 
 np.int64(36)
+
+## Find the index of the most similar user max_index, 
+i.e. calculate the cosine similarity between this user and each of the users in the user_stats array.
 ```python
 import numpy as np
 users_stats = np.array(
